@@ -49,12 +49,12 @@ return colorResponse;
 // #9 Create a function called 'sum' that takes in a parameter and returns the sum of that parameter.
 
 // CODE HERE
-function sum(arr){
-  var total=0;
-  for (i=0; i<arr.length; i++){
-  total+=arr[i];
+function sum(x){
+  let startNum = x;
+  for (i=startNum-1; i>=0; i--){
+  x+=i;
   }
-   return total; }
+   return x; }
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
 
 // CODE HERE
